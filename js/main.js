@@ -17,8 +17,8 @@ var gGame = {
 }
 
 var gLevel = {
-    SIZE: 6,
-    MINES: 6
+    SIZE: 9,
+    MINES: 12
 };
 const gGameTry = 3
 var gIsManual = false;
