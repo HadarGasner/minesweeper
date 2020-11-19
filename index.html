@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mine Sweeper</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="initGame();bestScore()">
+    <h1>Mine Sweeper</h1>
+    <button class="restartGame" onclick="restartGame()"> restart</button>
+    <button class="hint" onclick="hint(this)"> 🦉</button>
+    <button class="hint" onclick="hint(this)"> 🦉</button>
+    <button class="hint" onclick="hint(this)"> 🦉</button>
+    <button class="safe" onclick="safeClick()"> 🔎</button>
+    <br>
+    <button class="manually-create" onclick="manuallyCreate(this)"> manually create</button>
+
+    <div class="live-counter"> 0</div>
+    <div class="mine-counter"> 5</div>
+    <div class="time-counter"> 0</div>
+    
+
+    <table class="center">
+        <tbody class="board-container"></tbody>
+    </table>
+
+    <div class="best-score"> scores</div>
+
+
+    <script src="js/main.js"></script>
+    <script src="js/utils.js"></script>
+</body>
+
+</html>

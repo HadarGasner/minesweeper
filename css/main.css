@@ -1,0 +1,85 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 40px;
+}
+
+button{
+    font-size: 40px;
+    height: 80px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.manually-create{
+    width: 600px;
+}
+
+.mine-counter{
+    font-size: 50px;
+
+    color:  rgb(68, 4, 4);
+    height: 50px;
+}
+
+.time-counter{
+    font-size: 50px;
+    color: red;
+    height: 50px;
+    
+}
+
+.cell{
+    background-color:  rgb(185, 84, 84);
+    font-size: 50px;
+
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border:  5px solid;
+    border-color: rgb(185, 84, 84);
+
+}
+
+.clicked {
+    background-color: rgb(246, 165, 165);    
+}
+
+.mine{
+    background-color: orange;
+    border-color: orange;
+}
+
+.manually-cell{
+    background-color: orange;
+}
+
+.safe-click{
+   
+        outline: 5px solid rgba(253, 142, 37, 0.87);
+}
+
+
+div{
+    font-size: 50px;
+    font-family: Snell Roundhand, cursive
+    
+}
+
+.best-score{
+    font-family: OCR A Std, monospace;
+}
+
+
